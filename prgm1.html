@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="cl1">Document object model</h1>
+
+    <h1 id="dom">DOM</h1>
+
+    <button onclick="change()">Click</button>
+    
+    <p class="cl1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit eum atque, pariatur ex quis illum accusamus vel, cumque deleniti excepturi quae doloremque aliquam aut placeat! Itaque officia quidem soluta ipsam.</p>
+</body>
+<!-- internal -->
+ <script>
+
+     const result = document.getElementsByTagName('h1')
+     console.log(result[2]);
+
+    
+
+    // const result = document.getElementById('dom')
+    // console.log(result);
+    
+    
+    // const  result = document.getElementsByClassName('cl1')
+    // console.log(result[1]);
+
+    // const result = document.querySelector('h1')
+    // console.log(result);
+    
+    // const result = document.querySelectorAll('cl1')
+    //  console.log(result);
+    
+    //   const result = document.getElementById("dom")
+    //    result.innerHTML = 'Document object model'
+    //   result.style.color='blue'
+    //  result.style.fontSize='50px'
+
+
+    // const x = document.getElementsByTagName("h1")
+    //  console.log(x[0]);
+    //  x[0].innerHTML = 'DOM'
+    //  x[0].style.color='green'
+
+
+     function change() {
+        //  const result = document.getElementById("dom")
+         dom.innerHTML = 'Document object model'
+        dom.style.color = 'blue'
+        dom.style.fontSize = '50px'
+     }
+    
+
+
+    
+ </script>
+</html>
